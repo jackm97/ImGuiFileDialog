@@ -2275,7 +2275,7 @@ namespace IGFD
 		}
 	}
 
-	std::string IGFD::FileDialog::OptimizeFilenameForSearchOperations(std::string& vFileName)
+	std::string IGFD::FileDialog::OptimizeFilenameForSearchOperations(std::string vFileName)
 	{
 		// convert to lower case
 		for (char& c : vFileName)
